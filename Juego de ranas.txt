@@ -1,0 +1,8 @@
+Juego de ranas
+
+P1
+awsd :uiop
+
+flechas :,./
+
+https://github.com/xjdanielbautista/RanasLocasPelea/releases/download/v0.1.0/Frog.Smashers.zip
