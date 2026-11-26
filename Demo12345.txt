@@ -1,0 +1,39 @@
+Demo12345
+
+
+
+Pixel Forge Studio (pixel-forge)
+Dueño (Owner):
+Correo: dueno_pixel@indiedev.demo (Username: dueno_pixel)
+
+Miembros del equipo:
+Developer: dev_pixel@indiedev.demo (Username: dev_pixel)
+Artist: artista_pixel@indiedev.demo (Username: artista_pixel)
+Tester: tester_pixel@indiedev.demo (Username: tester_pixel)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nebula Games (nebula-games)
+Dueño (Owner):
+Correo: dueno_nebula@indiedev.demo (Username: dueno_nebula)
+Miembros del equipo:
+Developer: dev_nebula@indiedev.demo (Username: dev_nebula)
+Artist: artista_nebula@indiedev.demo (Username: artista_nebula)
