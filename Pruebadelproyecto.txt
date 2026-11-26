@@ -1,0 +1,21 @@
+Para poblar IndieDev-Pipeline con ejemplos ligeros y listos para tu exposición —sin tardarte en descargas pesadas ni arriesgarte a límites de subida o tiempos de espera en Render/Supabase— conviene usar recursos gratuitos muy livianos (unos cuantos KB a un par de MB) y dejar un set variado que cubra cada tipo de recurso del proyecto.
+
+Dónde conseguir ejemplos ligeros por tipo de recurso
+Audios (efectos cortos y loops ligeros, ~20 KB – 500 KB): Busca efectos puntuales (jump, coin, click, hit) en Freesound o Kenney (paquetes UI Audio / Interface Sounds), filtrando por duración corta (menos de 2 segundos) y formato .wav o .ogg comprimido. Para una exposición, 2 o 3 efectos cortos bastan y cargan al instante.
+
+Sprites y figuras 2D (~10 KB – 300 KB): Kenney (kenney.nl/assets) es ideal para demos porque ofrece sprite sheets limpios, íconos y personajes 2D en .png de bajo peso y licencia CC0 (sin problemas de derechos). También sirve itch.io filtrando por Game Assets → Free → 2D.
+
+Modelos 3D y escenas (~200 KB – 2 MB): En Kenney (packs Mini o Blocky Characters en .glb/.obj) o Sketchfab (filtrando por Downloadable y Free, eligiendo modelos low-poly simples) descarga piezas pequeñas de una sola malla o escena mínima. Evita escenas complejas con texturas 4K que superen varios megabytes.
+
+Builds (versiones de prueba ligeras, ~2 – 15 MB): Usa un ejecutable pequeño, un .zip ligero con un build de prueba (por ejemplo, una escena vacía o mínima exportada de un motor, o un paquete de ejemplo pequeño) para demostrar el Historial de builds con al menos dos versiones (v0.1.0-alpha y v0.2.0-demo) y mostrar el orden cronológico de la más reciente a la más antigua.
+
+Cómo armar un ejemplo convincente para tu demo
+Prepara una carpeta local demo-assets: Junta 1 audio corto, 1 sprite/figura 2D, 1 modelo 3D low-poly y 1–2 archivos pequeños para builds, verificando el tamaño de cada archivo antes de subirlo.
+
+Sube los archivos desde una tarea nueva: Crea tareas o assets nuevos en el proyecto para que tomen el proveedor de almacenamiento activo (s3) y confirma que cada uno genere su historial/versión y vista previa o descarga sin errores.
+
+Registra al menos dos builds en el historial: Agrega una versión inicial y una posterior con notas breves (por ejemplo, qué recurso se añadió o qué se probó) para que la pantalla de Historial de builds se vea viva y no vacía.
+
+Deja un flujo listo para mostrar en vivo: Deja un asset desbloqueado y otro con lock o comentario de prueba para explicar en segundos cómo el sistema evita choques entre integrantes del equipo sin depender del GitHub personal de cada usuario.
+
+Antes de subir todo el lote, conviene hacer primero una prueba con un archivo muy pequeño (menos de 500 KB) en una tarea nueva para confirmar que la subida a Supabase S3 ya responde con 200 OK y no vuelve a lanzar error 500.
